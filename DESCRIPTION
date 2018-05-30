@@ -1,0 +1,21 @@
+Package: sfiR
+Type: Package
+Title: Implementing the Santa Fe Institute brand style in R
+Version: 1.0
+Date: 2018-05-30
+Author: Andy Rominger
+Maintainer: Andy Rominger <ajrominger@gmail.com>
+Description: Functions implementing the aesthetics of the SFI brand in R plotting
+License: GPL-2
+URL: https://github.com/ajrominger/sfiR
+BugReports: https://github.com/ajrominger/sfiR/issues
+LazyLoad: yes
+LazyData: true
+Depends:
+    R (>= 2.10)
+Imports:
+    graphics,
+    grDevices
+Suggests:
+    testthat
+RoxygenNote: 6.0.1
