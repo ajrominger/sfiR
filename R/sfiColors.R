@@ -27,3 +27,5 @@ linear5 <- c(2, 12, 10)
 linear6 <- c(7, 10, 4)
 lilGradient1 <- c(5, 6, 11, 4)
 lilGradient2 <- c(5, 2, 7, 3)
+
+# package `scales` could be useful for interpolating colors
