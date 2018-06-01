@@ -29,3 +29,5 @@ lilGradient1 <- c(5, 6, 11, 4)
 lilGradient2 <- c(5, 2, 7, 3)
 
 # package `scales` could be useful for interpolating colors
+foo <- scales::gradient_n_pal(sfiColors[lilGradient1])
+plot(1:10, col = foo(seq(0, 1, length.out = 10)), pch = 16, cex = 2)
